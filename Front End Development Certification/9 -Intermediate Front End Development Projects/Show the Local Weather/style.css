@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+    background-color: #161616;
+}
+
+#main {
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+#city {
+    margin-top: 10%;
+    font-size: 100px;
+}
+
+#country {
+    font-size: 50px;
+}
+
+#temp {
+    font-size:75px;
+}
+
+#description{
+   font-family:Candara;
+    font-size: xx-large;
+}
+
+#author{
+    color: #FF0000;
+}
