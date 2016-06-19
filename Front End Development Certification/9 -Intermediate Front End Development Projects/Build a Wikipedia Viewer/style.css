@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+
+header {
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    margin: 5px 0;
+}
+
+
+.search-row {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+ 
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+
+#main {
+    font-family: "Raleway", Arial, monospace;
+    font-weight: 400;
+    margin-top: 100px;
+    color: white;
+}
+#wiki-search {
+    margin-top:100px;
+}
+
+#search-clear {
+    position: absolute;
+    right: 180px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #000 !important;
+    z-index: 10;
+}
+
+#search-clear:hover {
+    text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+#gl-test {
+    color:green;
+}
+
+#wikiLinks {
+    margin-top: 50px;
+    color: #000;
+}
+
+#wiki-links {
+    margin-top: 50px;
+    color: #000;
+    visibility: hidden;
+}
+
+.wiki-link-desc:hover {
+    box-shadow: 0 0 7px 7px rgb(118, 127, 125);
+    cursor: pointer;
+}
