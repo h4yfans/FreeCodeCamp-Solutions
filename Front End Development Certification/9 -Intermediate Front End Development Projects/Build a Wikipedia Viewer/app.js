@@ -52,6 +52,7 @@ function handleSearch() {
 
 $(document).ready(function () {
 
+
     var KEY_ENTER_ID = 13,
         wikiLinksElement = $("#wiki-links");
 
