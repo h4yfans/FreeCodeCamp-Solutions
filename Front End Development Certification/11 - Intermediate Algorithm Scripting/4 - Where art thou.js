@@ -12,6 +12,9 @@
      var keys = Object.keys(source);
      console.log(keys.length);
 
+    
+
+
      return collection.filter(function(obj){
          for(var i = 0; i<keys.length;i++){
              if(!obj.hasOwnProperty(keys[i]) || obj[keys[i]] !== source[keys[i]]){

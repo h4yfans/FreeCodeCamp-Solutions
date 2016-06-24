@@ -1,5 +1,5 @@
 
- /*
+ /**
    + Created by Kaan Karaca on 20/06/2016
    + github.com/h4yfans
    + feecodecamp.com/h4yfans
@@ -21,7 +21,6 @@
              }
          }
      }
-
      return arr.join(" ");
  }
 
