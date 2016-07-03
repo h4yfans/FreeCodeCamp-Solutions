@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px|Cinzel+Decorative';
+body {
+    background-color: #529B9C;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h2 {
+    color: #4f4c46;
+    font-weight: 100;
+    font-family: "Cinzel Decorative", sans-serif
+}
+
+.title {
+    color: red
+}
+
+#options,
+.clock {
+    color: white;
+}
+
+#options .breakNumber,
+.sessionNumber {
+    font-family: 'Slabo 27px', serif;
+    font-size: 40px;
+}
+
+#clock {
+    display: inline;
+    height: 100%;
+    width: 100%;
+}
+
+#timer {
+    font-size: 31px;
+    color: white;
+    text-shadow: 3px 5px rgb(0, 0, 0);
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.tomato {
+    display: flex;
+    justify-content: center;
+}
+
+.tomato div {
+    margin-top: 30px;
+    display: flex;
+    background-color: #675A55;
+    align-items: center;
+    justify-content: center;
+    width: 26vh;
+    height: 26vh;
+    border-radius: 50%;
+    border: 8px dotted rgba(254, 127, 45, 0.37);
+    box-shadow: 5px 5px 15px 15px rgba(22, 12, 51, 0.35);
+    height: 34vh;
+    width: 34vh;
+    border-radius: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-floating {
+    background-color: rgba(103, 242, 194, 0.22);
+    border: 1px solid rgb(0, 166, 254);
+    margin-bottom: 20px
+}
+
+.custom-style,
+.custom-style:active,
+.custom-style:focus {
+    background-color: #529B9C;
+    box-shadow: none;
+    border: 1px solid white;
+    color: white;
+}

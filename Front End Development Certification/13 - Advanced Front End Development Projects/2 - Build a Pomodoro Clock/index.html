@@ -1,0 +1,98 @@
+<!--
+ * Created by Kaan Karaca on 30/06/2016.
+ * github.com/h4yfans
+ * freecodecamp.com/h4yfans
+ * kaan94karaca@gmail.com
+ -->
+
+<html>
+
+<head>
+    <title>FreeCodeCamp.com- Pomodoro Timer</title>
+    <!--Bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <script src="https://use.fontawesome.com/f5f9a9bc8b.js"></script>
+    <!--jQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!--Local JS File-->
+    <script rel="stylesheet" charset="utf-8" src="app.js"></script>
+    <!--JS Files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--Materialize Framework-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <!--Local Css File-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <h2>pomodoro  clock</h2>
+        <div class="row">
+            <button type="button" class="waves-effect waves-light btn custom-style" data-toggle="collapse" data-target="#options"><i class="material-icons left">alarm_on</i>Set Timer</button>
+
+
+
+            <div id="options" class="col-lg-12 collapse">
+                <span class="col-lg-6">break length<br>
+                <a id="breakMinus" class="waves-effect waves-light btn-floating z-depth-2"><i class="material-icons">remove</i></a>
+                <span class="breakNumber">5</span>
+                <a id="breakPlus" class="waves-effect waves-light btn-floating z-depth-2"><i class="material-icons">add</i></a> </span>
+
+                <span class="col-lg-6">session length<br>
+                <a id="sessionMinus" class="waves-effect waves-light btn-floating z-depth-2"><i class="material-icons">remove</i></a>
+                <span class="sessionNumber">25</span>
+                <a id="sessionPlus" class="waves-effect waves-light btn-floating z-depth-2"><i class="material-icons">add</i></a>
+                </span>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 tomato">
+                <div>
+                    <h3 id="timer">25:00</h3>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!--  Footer  -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">created by Kaân- fcc</h5>
+                    <p class="grey-text text-lighten-4">Pomodoro clock uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks.</p>
+                </div>
+                <div class="col l4 offset-l2 s12 right">
+                    <h5 class="white-text">Social</h5>
+                    <ul>
+                        <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>&nbsp;
+                        <a class="grey-text text-lighten-3" href="http://twitter.com/KaanKaraca_"><i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a> &nbsp;
+                        <a class="grey-text text-lighten-3" href="http://github.com/h4yfans"><i class="fa fa-github" aria-hidden ="true"></i>
+                    </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+
+                <a class="grey-text text-lighten-3 right" href="http://github.com/h4yfans"><i class="fa fa-send" aria-hidden="true"></i>&nbsp;  kaan94karaca@gmail.com
+            </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
